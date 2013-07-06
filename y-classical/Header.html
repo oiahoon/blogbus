@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+                <meta name="google-site-verification" content="gLjwYZ_WqngXoNFaKcYVGLC3653x68zjzoC5PCKuXw4" />
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+  {lang: 'zh-CN'}
+</script>
+<script type="text/javascript">
+function OpenComments (c) {
+    window.open(c,
+                    'comments',
+                    'width=480,height=480,scrollbars=yes,status=yes');
+}
+function OpenTrackback (c) {
+    window.open(c,
+                    'trackback',
+                    'width=480,height=480,scrollbars=yes,status=yes');
+}
+</script>
+<script type="text/javascript">
+<!--
+function resizeImg() {
+var imageAll=document.getElementById("content").getElementsByTagName("img");
+if (imageAll !=null)	{
+	for (i=0; i<imageAll.length; i++) {
+		if (imageAll[i].width>468) {
+			imageAll[i].style.width="100%";
+			imageAll[i].onclick=function(){window.open(this.src)};
+			imageAll[i].style.cursor="pointer";
+			imageAll[i].alt="点击查看原始尺寸";	
+		}
+	}
+}
+resizeCustomHtml();
+}
+function resizeCustomHtml() {
+	var customHtmlImg=document.getElementById("customHtml").getElementsByTagName("img");
+	if (customHtmlImg !=null)	{
+		for (i=0; i<customHtmlImg.length; i++) {
+			if (customHtmlImg[i].width>180) {
+				customHtmlImg[i].style.width="100%";
+			}
+		}
+	}
+}
+if (window.addEventListener)
+window.addEventListener("load", resizeImg, false);
+else if (window.attachEvent)
+window.attachEvent("onload", resizeImg);
+else
+window.onload=resizeImg
+-->
+</script>
+<div style="display:none">
+<script language="javascript" type="text/javascript" src="http://www.qiao7.com/tongji/t.asp?user_name=onice"></script>
+</div>
+		<title><!-- ~ blogname ~ --> - 4296411.blogbus.com</title>
+<link rel="alternate" type="application/rss+xml" title="RSS 1.0" href="<!-- ~ rss_url ~ -->" />
+<link href='http://fonts.googleapis.com/css?family=Geo&v2' rel='stylesheet' type='text/css'>
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+  <script>
+$(document).ready(function() {
+	$('div#yao_footer_no_use').attr("style", 'height:800px; width:600px; position:absolute; z-index:9999; top:20px; background-color:#000;border:10px solid #000;text-align:center;color:#fff;margin:50px 200px;line-height:700px;');
+	$('.art_title a').click(function() {
+		$(this).text('(づ￣ ³￣)づ 努力加载页面...');
+		window.location = $(this).attr('href')
+	});
+	var title = '';
+	var alt = '';
+	$('a, img, div').mouseover(function() {
+		var title = $(this).attr('title');
+		var alt = $(this).attr('alt');
+		if (title == '') {
+			return false
+		}
+		if (alt == '') {
+			return false
+		}
+		var divObj = $('#yao_alt_layer');
+		var top = 0;
+		var left = 0;
+		var event = window.event || event;
+		top = document.body.scrollTop;
+		left = document.body.scrollLeft;
+		if (document.documentElement.scrollTop >= document.body.scrollTop) {
+			top = document.documentElement.scrollTop;
+			left = document.documentElement.scrollLeft
+		}
+		top = top + event.clientY + 16;
+		left = left + event.clientX;
+		divObj.css('zindex', 1000);
+		divObj.css('left', left.toString() + "px");
+		divObj.css('top', top.toString() + "px");
+		if (title != '') {
+			$(this).attr("title", "");
+			divObj.html(title);
+			divObj.show(200)
+		}
+	}).mouseout(function() {
+		var t_title = $('#yao_alt_layer').html();
+		if (t_title != '') {
+			$(this).attr("title", t_title)
+		}
+		$('#yao_alt_layer').hide();
+		$('#yao_alt_layer').html('')
+	});
+	var f_copyright = $('div#yao_footer_no_use p').html();
+	var yao_special = 'themed by onice.';
+	if (f_copyright == yao_special) {
+		var yaO_footer = '<div class=\'clrb\'></div><div id="copyright">Copyright &copy; 2012 <a href="http://4296411.blogbus.com" title="首页"><!-- ~ blogname ~ --></a> - Powered by <a href="http://www.blogbus.com">blogbus</a> - Themed by <a href="http://4296411.blogbus.com" title="访问onice的博客">yao</a>.</div>';
+		$('div#yao_footer_no_use').remove();
+		$('div#copyright').remove();
+		$('div.col3').after(yaO_footer);
+		$('div#yao_footer_no_use').attr("style", "display:none")
+	} else {
+		$('div#footer').after('<div id="yao_footer_no_use"><p>themed by onice.<p></div>')
+	}
+});
+ </script>
+
+<!-- AJAX SUCCESS TEST FONCTION	
+	<script>function callSuccessFunction(){alert("success executed")}
+		function callFailFunction(){alert("fail executed")}
+	</script>
+-->
+<meta name="description" content="<!-- ~ blogname ~ -->,<!-- ~ blogdescr ~ -->" />
+<meta name="keywords" content="<!-- ~ blogname ~ -->,<!-- ~ blogdescr ~ -->,Blog,Blogger,BlogBus" />	
+<style type="text/css"> 
+<!-- ~ css ~ -->
+</style>
+<script type="text/javascript">
+$(document).ready(function(){
+$("input#submit_comment").attr("class","button large blue");
+$("textarea[name='content']").attr("cols","58");
+$('iframe').remove();
+$('div#commentForm h2').remove();
+});
+</script>
